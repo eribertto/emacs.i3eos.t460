@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/bibsmendz/GithubRepos/" . "emacs-better-defaults/")
+ ("/home/bibsmendz/" . "myefs.emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/bibsmendz/myefs.emacs.d/"
+ "/home/bibsmendz/GithubRepos/emacs-better-defaults/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "better-defaults.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/bibsmendz/.emacs.d/" (25802 12337 78202 484000) "elpa/" "./" "backups/" "history" "places" "../" "ido.last" "init.el" "auto-save-list/")
+
+ ("/home/bibsmendz/myefs.emacs.d/" (25800 51581 69083 218000) ".gitignore" "etc/" "elpa/" "init.el~" "./" "var/" "elisp/" "readme.org" "../" ".last-package-update-day" ".git/" "transient/" "init.el" "auto-save-list/")
+
+ ("/home/bibsmendz/bak.emacs.d/" (25802 11175 60519 746000) "elpa/" "./" "backups/" "var/" "history" "places" "../" ".last-package-update-day" "transient/" "auto-save-list/")
+
+ ("/home/bibsmendz/GithubRepos/emacs-better-defaults/" (25800 61314 265027 837000) "better-defaults.el" "./" "README.md" "../" ".git/")
+
+ ("/home/bibsmendz/GithubRepos/" (25800 62370 868500 134000) "freebsd-xfce/" "jovian-careers-website/" "python-exercise/" "custom_user_model_django/" "MegaFlask_tutorial/" "django_pages/" "eritodo/" "mytodos/" "eri-todo/" "bashidioms-examples/" "./" "django_blog/" "emacs-from-scratch/" "first_blog_django/" "shellclass.udemy/" "emacs-better-defaults/" "PDM_EriM/" "FlaskIntroduction/" "pcc_2e/" "taskwarriorTodos/" "waraywaray/" "py_100d_code/" "../" "tutorial_djangoproject/" "haskell-course/" "web-scraper/" "linuxUpskillchallenge/" "awesome-elisp/" "pelican/" "linuxupskillchallenge_eribertto/" "django3_by_example/" "MITcsIntroPython/" "udemy.shell.scripting/" "Heroku_host_flask/" "magnars.emacs.d/" "bash_scripts/" "codes_django/")
+
+ ("/home/bibsmendz/" (25802 11870 557671 174000) "Pictures/" "Desktop/" ".zshrc" ".bash_aliases" "Videos/" ".fehbg" "GithubRepos/" ".local/" ".bashrc" ".gitignore_global" ".bash_profile" ".profile" ".vim/" "./" ".task/" "Documents/" "Downloads/" "bak.emacs.d/" ".viminfo" "Music/" "../" ".gitconfig" ".emacs.d/" ".gitconfig~" ".taskrc" ".pki/" ".cache/" "go/" "Templates/" ".mozilla/" ".bash_aliases~" ".vimrc" ".bash_logout" "myefs.emacs.d/" ".Xresources" "Public/" ".config/" ".bash_history")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,16 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/bibsmendz/.emacs.d/init.el" . 659)
+ ("/home/bibsmendz/GithubRepos/emacs-better-defaults/better-defaults.el" . 2679)
+ ("/home/bibsmendz/.bash_aliases" . 329)
+ ("/home/bibsmendz/bak.emacs.d/elpa/all-the-icons-20230615.2016/all-the-icons.el" . 3854)
+ ("/home/bibsmendz/.bashrc" . 2867)
+ ("/home/bibsmendz/Downloads/i3blocks.conf" . 2151)
+ ("/home/bibsmendz/Downloads/i3-config" . 3300)
+ ("/home/bibsmendz/Downloads/i3-keybindings" . 2042)
+ ("/home/bibsmendz/GithubRepos/mytodos/"
+  (dired-filename . "/home/bibsmendz/GithubRepos/mytodos/aws.practice.exam.md"))
+ ("/home/bibsmendz/Downloads/raw.githubusercontent.com_eribertto_efs.emacs.d_main_init.el" . 2780)
+ ("/home/bibsmendz/.emacs.d/bookmarks" . 251)
+ ("/home/bibsmendz/.emacs.d/settings/use-package-diminish.el" . 2525)
+ ("/home/bibsmendz/.config/i3/config" . 37)
+ ("/home/bibsmendz/.emacs.d/scratch/elisps.aug.3.el" . 465))
