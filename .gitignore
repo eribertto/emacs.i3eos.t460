@@ -9,6 +9,7 @@ tramp
 .\#*
 # history
 history
+*custom.*
 
 # Org-mode
 .org-id-locations

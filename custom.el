@@ -3,25 +3,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ignored-local-variable-values
-   '((eval add-hook 'after-save-hook
-           (lambda nil
-             (if
-                 (y-or-n-p "Tangle?")
-                 (org-babel-tangle)))
-           nil t)
-     (eval add-hook 'after-save-hook
-           (lambda nil
-             (if
-                 (y-or-n-p "Reload?")
-                 (load-file user-init-file)))
-           nil t)
-     (eval add-hook 'after-save-hook
-           (lambda nil
-             (if
-                 (y-or-n-p "Export?")
-                 (org-html-export-to-html)))
-           nil t))))
+ '(package-selected-packages
+   '(which-key vterm magit ivy-rich ivy-prescient hydra general evil-escape evil-collection doom-themes doom-modeline counsel command-log-mode auto-package-update all-the-icons adjust-parens)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
