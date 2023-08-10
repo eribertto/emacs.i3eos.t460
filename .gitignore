@@ -8,7 +8,8 @@ auto-save-list
 tramp
 .\#*
 # history
-history
+/*history
+/*places
 *custom.*
 
 # Org-mode

@@ -4,7 +4,7 @@
 (add-to-list 'load-path "~/GithubRepos/emacs-better-defaults")
 ;; load the better-defaults.el file
 (require 'better-defaults)
-(set-frame-font "IosevkaTerm Nerd Font 20" nil t)
+(set-frame-font "IosevkaTerm Nerd Font 26" nil t)
 ;; IosevkaTerm Nerd Font
 ;; FiraCode Nerd Font
 
@@ -28,8 +28,22 @@
   (setq package-archives '(("melpa" . "https://melpa.org/packages/")
                            ("org" . "https://orgmode.org/elpa/")
                            ("elpa" . "https://elpa.gnu.org/packages/")))
-
-
+  (set-charset-priority 'unicode) ; utf8 all throughout
+  (setq locale-coding-system 'utf-8
+        coding-system-for-read 'utf-8
+        coding-system-for-write 'utf-8)
+  (set-terminal-coding-system 'utf-8)
+  (set-keyboard-coding-system 'utf-8)
+  (set-selection-coding-system 'utf-8)
+  (prefer-coding-system 'utf-8)
+  (setq default-process-coding-system '(utf-8-unix . utf-8-unix))
+  (electric-pair-mode t)
+  ;; less noise when compiling elisp
+  (setq byte-compile-warnings '(not free-vars unresolved noruntime lexical make-local))
+  (setq native-comp-async-report-warnings-errors nil)
+  (setq load-prefer-newer t)
+  ;; hide commands in M-x which dont work in the current mode
+  (setq read-extended-command-predicate #'command-completion-default-include-p)
   )
 
 (setq site-lisp-dir
