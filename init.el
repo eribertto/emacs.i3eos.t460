@@ -83,6 +83,7 @@
 ;; enable line numbers globally
 (global-display-line-numbers-mode t)
 ;; do NOT display line numbers for some modes
+;; including vterm
 (dolist (mode '(org-mode-hook
 		term-mode-hook
 		shell-mode-hook
@@ -221,7 +222,6 @@
 ;; or use as ref guide https://www.patrickdelliott.com/emacs.d/#orgb5012a7
 
 ;; install vterm after completing the prerequisites
-;; disable line numbers in vterm-mode using hooks
 
 ;; (add-hook 'vterm-mode-hook (lambda() (display-line-numbers-mode -1)))
 (use-package vterm
