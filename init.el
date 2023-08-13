@@ -298,3 +298,17 @@
    `(org-level-2 ((t (,@headline ,@variable-tuple :height 1.3))))
    `(org-level-1 ((t (,@headline ,@variable-tuple :height 1.5))))
    `(org-document-title ((t (,@headline ,@variable-tuple :height 1.6 :underline nil))))))
+
+;; org-journal
+(use-package org-journal
+  :ensure t
+  :defer t
+  :init
+  ;; Change default prefix key; needs to be set before loading org-journal
+  (setq org-journal-prefix-key "C-c j ")
+  :config
+  (setq org-journal-dir "~/org/journal/"
+        org-journal-date-format "%A, %d %B %Y"
+        org-journal-file-format "%Y-%m-%d.org"
+        org-journal-date-prefix "#+TITLE: Daily Notes "))
+        ;;(org-journal-update-auto-mode-alist)

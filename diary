@@ -1,2 +1,6 @@
 Aug 13, 2023
 Add first diary entry, i dont want this entry actually. What i want is todo items on the fly. Why I end up here is beyond me lol :-)
+Aug 12, 2023
+consider using org-journal for simple daily todos
+https://github.com/bastibe/org-journal
+%%(diary-anniversary 8 12 2023) Consider greetings for Tita Thelmas birthday this Aug. 28
