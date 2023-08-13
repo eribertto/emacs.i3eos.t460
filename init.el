@@ -4,6 +4,8 @@
 (add-to-list 'load-path "~/GithubRepos/emacs-better-defaults")
 ;; load the better-defaults.el file
 (require 'better-defaults)
+;;(add-to-list 'load-path "~/.emacs.d/elisp")
+;;(require 'setup-org)
 (set-frame-font "IosevkaTerm Nerd Font 26" nil t)
 ;; IosevkaTerm Nerd Font
 ;; FiraCode Nerd Font

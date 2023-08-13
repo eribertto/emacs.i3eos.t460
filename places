@@ -1,5 +1,10 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/bibsmendz/.emacs.d/init.el" . 3884)
+(("/home/bibsmendz/.emacs.d/todo/Todo.todo" . 58)
+ ("/home/bibsmendz/.notes" . 9)
+ ("/home/bibsmendz/.emacs.d/bookmarks" . 245)
+ ("/home/bibsmendz/.emacs.d/init.el" . 1931)
+ ("/home/bibsmendz/.emacs.d/settings/setup-org.el" . 22)
+ ("/home/bibsmendz/.emacs.d/elisp/setup-org.el" . 1612)
  ("/home/bibsmendz/GithubRepos/emacs-better-defaults/better-defaults.el" . 2679)
  ("/home/bibsmendz/.bash_aliases" . 329)
  ("/home/bibsmendz/bak.emacs.d/elpa/all-the-icons-20230615.2016/all-the-icons.el" . 3854)
@@ -10,7 +15,6 @@
  ("/home/bibsmendz/GithubRepos/mytodos/"
   (dired-filename . "/home/bibsmendz/GithubRepos/mytodos/aws.practice.exam.md"))
  ("/home/bibsmendz/Downloads/raw.githubusercontent.com_eribertto_efs.emacs.d_main_init.el" . 2780)
- ("/home/bibsmendz/.emacs.d/bookmarks" . 251)
  ("/home/bibsmendz/.emacs.d/settings/use-package-diminish.el" . 2525)
  ("/home/bibsmendz/.config/i3/config" . 37)
  ("/home/bibsmendz/.emacs.d/scratch/elisps.aug.3.el" . 465))
