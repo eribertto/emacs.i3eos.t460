@@ -56,9 +56,10 @@
   (setq user-settings-dir
         (concat user-emacs-directory "users/" user-login-name))
 ;; set up load path e.g.
-;; the 2 dirs above will be added to the load-path when emacs looks for elisp codes
+;; the 3 dirs above will be added to the load-path when emacs looks for elisp codes
 (add-to-list 'load-path site-lisp-dir)
 (add-to-list 'load-path settings-dir)
+(add-to-list 'load-path user-settings-dir)
 
 
 ;; package initialize
