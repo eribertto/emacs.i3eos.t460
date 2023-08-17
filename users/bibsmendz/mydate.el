@@ -7,14 +7,18 @@
 day month date, year format."
   (interactive "P")
   (let ((format (cond
-                 ((not prefix) "%d.%m.%Y")
+                 ((not prefix) "%m.%d.%Y")
                  ((equal prefix '(4)) "%Y-%m-%d")
                  ((equal prefix '(16)) "%A %B %d, %Y")))
                  ;;((equal prefix '(16)) "%A, %d. %B %Y")))
         (system-time-locale "en_US"))
     (insert (format-time-string format)))
   )
-(global-set-key (kbd "C-c d") 'insert-date)
+;;(global-set-key (kbd "C-c d") 'insert-date) ;; OK
+;;(global-set-key (kbd "C-c [f12]") 'insert-date) ;; doesnt work
+
+;; this works!!!!
+(global-set-key [f12] 'insert-date)
 
 ;;(get-locale-names)
 ;;17.08.2023
